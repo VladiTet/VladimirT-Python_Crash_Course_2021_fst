@@ -1,4 +1,4 @@
-favorite_pizzas = ['pepperoni','kaprichoza','kalcone']
+favorite_pizzas = ['pepperoni', 'kaprichoza', 'kalcone']
 friend_pizzas = favorite_pizzas[:]
 
 favorite_pizzas.append("meat lover's")
@@ -11,4 +11,6 @@ for x in favorite_pizzas:
 print("\nMy friend’s favorite pizzas are:")
 for x in friend_pizzas:
     print(f"-{x}")
+
+
 
