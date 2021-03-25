@@ -1,4 +1,4 @@
-menu= ('sandwich', 'nuggets', 'burger', 'cakes', 'fries')
+menu = ('sandwich', 'nuggets', 'burger', 'cakes', 'fries')
 
 print("You can choose from the following menu:")
 for x in menu:
