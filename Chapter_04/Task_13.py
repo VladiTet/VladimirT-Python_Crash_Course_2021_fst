@@ -12,3 +12,4 @@ print("\nYou can now choose from the following menu:")
 
 for x in menu:
     print(f"-{x}")
+
