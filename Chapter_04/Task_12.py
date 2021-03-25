@@ -11,3 +11,5 @@ for x in my_foods:
 print("\nMy friend's favorite foods are:")
 for x in friend_foods:
     print(f"-{x}")
+
+
