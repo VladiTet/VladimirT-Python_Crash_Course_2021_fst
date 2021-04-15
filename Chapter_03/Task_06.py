@@ -14,7 +14,7 @@ for x in guests:
 
 print("\nWe got a bigger table!\n")
 guests.insert(0, 'Bobi')
-guests.insert(2, 'Tisho')
+guests.insert(int(len(guests)/2), 'Tisho')
 guests.append('Aleksander')
 
 for x in guests:
