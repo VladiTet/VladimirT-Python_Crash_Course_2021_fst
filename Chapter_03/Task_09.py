@@ -25,7 +25,7 @@ print(len(guests))
 
 print("\nSorry, we can only invite two people to dinner.\n")
 
-for x in range(0,5):
+for x in range(0, 5):
     name = guests.pop()
     print(f"Sorry, {name.title()} there's no room at the table.")
 
