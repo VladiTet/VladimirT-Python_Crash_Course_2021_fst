@@ -1,7 +1,8 @@
-def make_shirt(size, message):
+def make_shirt(size='large', message='I love Python!'):
     """Summarize the shirt that's going to be made."""
     print(f"\nI'm going to make a {size} t-shirt.")
     print(f'It will say, "{message}"')
 
-make_shirt('large', 'I love Python!')
-make_shirt(message="Python enthusiast", size='medium')
+make_shirt()
+make_shirt(size='medium')
+make_shirt('large', 'Programmers are loopy.')
